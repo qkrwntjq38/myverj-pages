@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>수진의 개인 페이지</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>수진의 개인 페이지</h1>
+
+    <div id="locker" class="card">
+      <p>비밀번호를 입력하세요.</p>
+      <input id="pw" type="password" placeholder="비밀번호">
+      <button id="unlock">열기</button>
+      <p id="msg" class="muted"></p>
+    </div>
+
+    <article id="content" class="card hidden">
+      <h2>Welcome</h2>
+      <p>이곳은 수진의 개인 페이지입니다. 개인적인 메모와 링크를 여기에 올립니다.</p>
+
+      <!-- 개인 콘텐츠는 여기에 추가 -->
+
+      <button id="lockdown" class="danger">숨기기</button>
+    </article>
+
+  </main>
+  <script src="protect.js"></script>
+</body>
+</html>
